@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Build"){
             steps{
-             echo "There is a new commit in your repository, hence Jenkins will build it again"
+             echo "There is a new commit in your repository, hence Jenkins will build it again and again"
             }
         }
         stage("Test"){
